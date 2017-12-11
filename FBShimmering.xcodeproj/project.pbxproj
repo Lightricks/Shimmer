@@ -14,6 +14,11 @@
 		1899D27418BD201B0035A1B0 /* FBShimmering.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1899D26D18BD1D070035A1B0 /* FBShimmering.h */; };
 		1899D27518BD201B0035A1B0 /* FBShimmeringView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1899D26818BD1CFB0035A1B0 /* FBShimmeringView.h */; };
 		1899D27618BD201B0035A1B0 /* FBShimmeringLayer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1899D26A18BD1CFB0035A1B0 /* FBShimmeringLayer.h */; };
+		859E7D5A1FDE856100D8FD46 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E7423E1FDD807F00662AB9 /* QuartzCore.framework */; };
+		859E7D5B1FDE856100D8FD46 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077ACA6B1CBD6B5800B3A708 /* CoreGraphics.framework */; };
+		859E7D5C1FDE856100D8FD46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077ACA691CBD6B4300B3A708 /* UIKit.framework */; };
+		859E7D5D1FDE856100D8FD46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECEA610118A49C620064AFF4 /* Foundation.framework */; };
+		85E7423F1FDD808000662AB9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E7423E1FDD807F00662AB9 /* QuartzCore.framework */; };
 		A1C8E0BF1E13C0C9002D6069 /* Shimmer.h in Headers */ = {isa = PBXBuildFile; fileRef = A1C8E0BD1E13C0C9002D6069 /* Shimmer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1C8E0C31E13C0D3002D6069 /* FBShimmering.h in Headers */ = {isa = PBXBuildFile; fileRef = 1899D26D18BD1D070035A1B0 /* FBShimmering.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1C8E0C41E13C0D3002D6069 /* FBShimmeringView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1899D26818BD1CFB0035A1B0 /* FBShimmeringView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -46,6 +51,7 @@
 		1899D26918BD1CFB0035A1B0 /* FBShimmeringLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringLayer.m; sourceTree = "<group>"; };
 		1899D26A18BD1CFB0035A1B0 /* FBShimmeringLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringLayer.h; sourceTree = "<group>"; };
 		1899D26D18BD1D070035A1B0 /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmering.h; sourceTree = "<group>"; };
+		85E7423E1FDD807F00662AB9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		A1C8E0BB1E13C0C9002D6069 /* Shimmer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shimmer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C8E0BD1E13C0C9002D6069 /* Shimmer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shimmer.h; sourceTree = "<group>"; };
 		A1C8E0BE1E13C0C9002D6069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,6 +69,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				859E7D5A1FDE856100D8FD46 /* QuartzCore.framework in Frameworks */,
+				859E7D5B1FDE856100D8FD46 /* CoreGraphics.framework in Frameworks */,
+				859E7D5C1FDE856100D8FD46 /* UIKit.framework in Frameworks */,
+				859E7D5D1FDE856100D8FD46 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +83,7 @@
 				077ACA6C1CBD6B5800B3A708 /* CoreGraphics.framework in Frameworks */,
 				077ACA6A1CBD6B4300B3A708 /* UIKit.framework in Frameworks */,
 				ECEA610218A49C620064AFF4 /* Foundation.framework in Frameworks */,
+				85E7423F1FDD808000662AB9 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +127,7 @@
 		ECEA610018A49C620064AFF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				85E7423E1FDD807F00662AB9 /* QuartzCore.framework */,
 				077ACA6B1CBD6B5800B3A708 /* CoreGraphics.framework */,
 				077ACA691CBD6B4300B3A708 /* UIKit.framework */,
 				ECEA610118A49C620064AFF4 /* Foundation.framework */,
